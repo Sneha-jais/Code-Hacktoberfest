@@ -5,6 +5,9 @@
 using namespace std;
 
 int ternary_search(int arr[],int n,int x,int start,int end){
+    if(start>end){
+        return 0;
+    }
     int mid1=start+(end-start)/3;
     int mid2=end-(end-start)/3;
     
