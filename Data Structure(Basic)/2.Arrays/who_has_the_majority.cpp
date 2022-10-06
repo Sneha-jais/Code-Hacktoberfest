@@ -16,7 +16,7 @@ int main()
          }
 
 int maxCount=n/2,index;
-
+//for loops to count majority
 for(int i=0; i<n; i++){
     int count=0;
     for(int j=0; j<n;j++){
