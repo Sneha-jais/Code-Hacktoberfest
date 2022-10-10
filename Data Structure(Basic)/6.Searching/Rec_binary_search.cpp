@@ -1,5 +1,11 @@
+/* :)
+Binary search using recursion.
+*/
+
 #include <iostream>
 using namespace std;
+
+//Function for binary search
 
 int binary_search(int arr[], int n,int x,int start,int end){
  if(start<=end){
@@ -27,6 +33,9 @@ for(int i=0;i<n;i++){
 }
 cout<<"Enter the element which you want to search:\n";
 cin>>key;
+ 
+//calling the function
+ 
 int ans=binary_search(arr,n,key,0,n-1);
 cout<<"The index of desired element is: "<<ans<<endl;
  return 0;
