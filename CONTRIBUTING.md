@@ -13,7 +13,7 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
 | Name | Github Link |
 | ------|--------- |
 | Sneha Jaiswal | <a href="https://github.com/sneha-jais">https://github.com/sneha-jais</a> |
-
+| Nikita Jain | <a href="https://github.com/Nikita0331">https://github.com/Nikita0331</a> |
 
 
 Thanks to everyone who helped in building this Repository :)
