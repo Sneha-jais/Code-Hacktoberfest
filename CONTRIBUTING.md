@@ -12,7 +12,7 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
   
 | Name | Github Link |
 | ------|--------- |
-| SSGMCE_Hacktobefest | <a href="https://github.com/OS2626">https://github.com/OS2626</a> |
+| Sneha Jaiswal | <a href="https://github.com/sneha-jais">https://github.com/sneha-jais</a> |
 
 
 
