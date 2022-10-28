@@ -1,0 +1,57 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution{
+    public:
+    bool isvalid(int x,int y,int n){
+        return (x>=0 && y>=0 && x<n && y<n);
+    }
+    int dx[4]={1,-1,0,0},
+        dy[4]={0,0,1,-1};
+    char dir[4]={'D','U','R','L'};
+    void helper(int x,int y,string &curr,vector<string> &ans,vector<vector<int>> &m,int n,vector<vector<bool>> &vis){
+        if(x==n-1 && y==n-1){ans.push_back(curr); return;}
+        vis[x][y]=true;
+        for(int k=0;k<4;k++){
+            int i=x+dx[k],j=y+dy[k]; char c=dir[k];
+            if(isvalid(i,j,n) && !vis[i][j] && m[i][j]==1){
+                curr+=c;
+                helper(i,j,curr,ans,m,n,vis);
+                curr.pop_back();
+            }
+        }
+        vis[x][y]=false;
+    }
+    vector<string> findPath(vector<vector<int>> &m, int n) {
+        vector<string> ans; string curr="";
+        if(m[0][0]==0 || m[n-1][n-1]==0){return ans;}
+        vector<vector<bool>> vis(n,vector<bool>(n,false));
+        helper(0,0,curr,ans,m,n,vis);
+        return ans;
+    }
+};
+
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<vector<int>> m(n, vector<int> (n,0));
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                cin >> m[i][j];
+            }
+        }
+        Solution obj;
+        vector<string> result = obj.findPath(m, n);
+        sort(result.begin(), result.end());
+        if (result.size() == 0)
+            cout << -1;
+        else
+            for (int i = 0; i < result.size(); i++) cout << result[i] << " ";
+        cout << endl;
+    }
+    return 0;
+}
