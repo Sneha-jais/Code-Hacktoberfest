@@ -18,7 +18,8 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
 | Archi Mittal | <a href="https://github.com/Archi24">https://github.com/Archi24</a> |
 | Shlok Upadhyay | <a href="https://github.com/oops-shlok">https://github.com/oops-shlok</a> |
 | Sagar-63 | <a href="https://github.com/Sagar-63">https://github.com/Sagar-63</a> |
-
+| Shivi Goel | <a href="https://github.com/goelshivi04">https://github.com/goelshivi04</a> |
+| AgrawalJitendra12 | <a href="https://github.com/AgrawalJitendra12">https://github.com/AgrawalJitendra12</a> |
 
 <br><br>
 <p>Thanks to everyone who helped in building this Repository :)</p>
