@@ -21,7 +21,8 @@ Enter your Name & Github Link in the given format. Don't try to change anything 
 | Shivi Goel | <a href="https://github.com/goelshivi04">https://github.com/goelshivi04</a> |
 | AgrawalJitendra12 | <a href="https://github.com/AgrawalJitendra12">https://github.com/AgrawalJitendra12</a> |
 | Vedant Singh | <a href="https://github.com/Vedant070401">https://github.com/Vedant070401</a> |
-
+| Mitanshu-Singhal | <a href="https://github.com/Mitanshu-Singhal">https://github.com/Mitanshu-Singhal</a> |
+| Asyanilma | <a href="https://github.com/asyanilma">https://github.com/asyanilma</a> |
 
 <br><br>
 <p>Thanks to everyone who helped in building this Repository :)</p>
