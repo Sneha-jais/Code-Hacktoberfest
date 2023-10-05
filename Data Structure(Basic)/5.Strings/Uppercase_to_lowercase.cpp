@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
 
-    string s;
-    getline(cin, s);
+    string str;
+    getline(cin, str);
 
-    for (int i = 0; i < s.length(); i++)
+    for (int i = 0; i < str.length(); i++)
     {
-        if (s[i] >= 65 && s[i] <= 90)
-            s[i] = s[i] + 32;
+        if (str[i] >= 65 && str[i] <= 90)
+            str[i] = str[i] + 32;
     }
 
-    cout << s;
+    cout << str;
     return 0;
 }
