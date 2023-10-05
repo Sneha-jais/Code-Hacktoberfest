@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void reverse(int arr[], int n){
+void rev(int arr[], int n){
     int low=0,high=n-1;
     while(low<high){
         int temp=arr[low];
@@ -22,7 +22,7 @@ cout<<"Enter elements of array\n";
 for(int i=0; i<n; i++)
 cin>>arr[i];
 
-reverse(arr,n);
+rev(arr,n);
 return 0;
 
 }
