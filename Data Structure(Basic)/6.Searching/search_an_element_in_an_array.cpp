@@ -9,15 +9,15 @@ int arr[n];
 for(int i=0;i<n;i++){
     cin>>arr[i];
 }
-bool flag=false;
+bool f=false;
 for(int i=0;i<n;i++){
     //If element found then put the flag true.
     if(arr[i]==key)
-      flag=true;
+      f=true;
 
 }
     
-if(flag==true)
+if(f==true)
 cout<<"Element found\n";
 else
 cout<<"Element not found\n";
